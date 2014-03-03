@@ -125,9 +125,11 @@ var Chibadge = (function() {
         }
 
         ctx.globalCompositeOperation = "source-over";
+        /*
         ctx.drawImage(ribbon.source, 0, 0,
                       ribbon.width() * SCALE_FACTOR,
                       ribbon.height() * SCALE_FACTOR);
+        */
 
         cb(null, canvas);
       }, this);
